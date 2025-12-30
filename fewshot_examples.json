@@ -1,0 +1,221 @@
+{
+  "positive_examples": [
+    {
+      "wrong": "H온드림 New Chapter",
+      "correct": "H-온드림 New Chapter",
+      "reason": "브랜드명 통일 (하이픈 필수)"
+    },
+    {
+      "wrong": "H 온드림 사회적기업",
+      "correct": "H-온드림 사회적기업",
+      "reason": "브랜드명 통일 (하이픈 필수, 띄어쓰기 제거)"
+    },
+    {
+      "wrong": "H-OnDream 펠로십",
+      "correct": "H-온드림 펠로십",
+      "reason": "브랜드명 통일 (한글 표기)"
+    },
+    {
+      "wrong": "펠로우십 프로그램",
+      "correct": "펠로십 프로그램",
+      "reason": "용어 통일 (펠로우 → 펠로)"
+    },
+    {
+      "wrong": "H-온드림 펠로우 7기",
+      "correct": "H-온드림 펠로 7기",
+      "reason": "용어 통일 (펠로우 → 펠로)"
+    },
+    {
+      "wrong": "기업가정신을 바탕으로",
+      "correct": "임팩트 앙트프러너십을 바탕으로",
+      "reason": "임팩트 맥락에서 용어 통일"
+    },
+    {
+      "wrong": "기업가 정신 교육",
+      "correct": "임팩트 앙트프러너십 교육",
+      "reason": "임팩트 맥락에서 용어 통일 (띄어쓰기 패턴 포함)"
+    },
+    {
+      "wrong": "impact 투자",
+      "correct": "임팩트 투자",
+      "reason": "영어 → 한글 통일 (소문자 impact)"
+    },
+    {
+      "wrong": "Impact 생태계",
+      "correct": "임팩트 생태계",
+      "reason": "영어 → 한글 통일 (대문자 Impact)"
+    },
+    {
+      "wrong": "맞춤 Mentoring 고도화",
+      "correct": "맞춤 멘토링 고도화",
+      "reason": "영어 → 한글 통일"
+    },
+    {
+      "wrong": "소셜벤처 엑셀러레이터",
+      "correct": "소셜벤처 액셀러레이터",
+      "reason": "맞춤법 통일 (엑셀 → 액셀)"
+    },
+    {
+      "wrong": "Programme 운영",
+      "correct": "프로그램 운영",
+      "reason": "영어 → 한글 통일"
+    },
+    {
+      "wrong": "소셜 벤처 육성",
+      "correct": "소셜벤처 육성",
+      "reason": "띄어쓰기 통일 (붙여쓰기)"
+    },
+    {
+      "wrong": "제안할수있어 감사합니다",
+      "correct": "제안할 수 있어 감사합니다",
+      "reason": "보조용언 띄어쓰기 (~할 수 있다)"
+    },
+    {
+      "wrong": "집행할수있는 유일한",
+      "correct": "집행할 수 있는 유일한",
+      "reason": "보조용언 띄어쓰기 (~할 수 있다)"
+    },
+    {
+      "wrong": "확장될수있는 전략",
+      "correct": "확장될 수 있는 전략",
+      "reason": "보조용언 띄어쓰기 (~될 수 있다)"
+    },
+    {
+      "wrong": "1,084억원",
+      "correct": "1,084억 원",
+      "reason": "화폐 단위 띄어쓰기"
+    },
+    {
+      "wrong": "총 250억원 규모",
+      "correct": "총 250억 원 규모",
+      "reason": "화폐 단위 띄어쓰기"
+    },
+    {
+      "wrong": "두번째 단계",
+      "correct": "두 번째 단계",
+      "reason": "서수 띄어쓰기"
+    },
+    {
+      "wrong": "첫번째 미팅",
+      "correct": "첫 번째 미팅",
+      "reason": "서수 띄어쓰기"
+    },
+    {
+      "wrong": "조직문화 형성에대한",
+      "correct": "조직문화 형성에 대한",
+      "reason": "조사 띄어쓰기 (~에 대한)"
+    },
+    {
+      "wrong": "밀착지원하기위해",
+      "correct": "밀착지원하기 위해",
+      "reason": "조사 띄어쓰기 (~하기 위해)"
+    },
+    {
+      "wrong": "LP로써 전략적으로",
+      "correct": "LP로서 전략적으로",
+      "reason": "로써/로서 구분 (자격/지위: 로서)"
+    },
+    {
+      "wrong": "Country Partner로써",
+      "correct": "Country Partner로서",
+      "reason": "로써/로서 구분 (자격/지위: 로서)"
+    },
+    {
+      "wrong": "펜테크 스타트업",
+      "correct": "핀테크 스타트업",
+      "reason": "외래어 표기법 (Fintech → 핀테크)"
+    },
+    {
+      "wrong": "Ai 기술 활용",
+      "correct": "AI 기술 활용",
+      "reason": "대소문자 통일 (AI는 대문자)"
+    },
+    {
+      "wrong": "Ai 스타트업",
+      "correct": "AI 스타트업",
+      "reason": "대소문자 통일 (AI는 대문자)"
+    },
+    {
+      "wrong": "MYSCLASS 교육",
+      "correct": "MYSClass 교육",
+      "reason": "정확한 브랜드명 표기"
+    },
+    {
+      "wrong": "mysclass 프로그램",
+      "correct": "MYSClass 프로그램",
+      "reason": "정확한 브랜드명 표기"
+    },
+    {
+      "wrong": "실무와의 연결될 수 있도록",
+      "correct": "실무와 연결될 수 있도록",
+      "reason": "조사 중복 제거 (~와의 ~될 → ~와 ~될)"
+    },
+    {
+      "wrong": "시장으로의 진입하는",
+      "correct": "시장으로 진입하는",
+      "reason": "조사 중복 제거 (~로의 ~하는 → ~로 ~하는)"
+    }
+  ],
+  "negative_examples": [
+    {
+      "text": "Executive Summary",
+      "reason": "영어 고유명사 보존 (문서 섹션명)"
+    },
+    {
+      "text": "길잡이 역할을 합니다",
+      "reason": "올바른 한국어 유지 (\"길잡이\"는 정상 단어)"
+    },
+    {
+      "text": "Station F 방문",
+      "reason": "고유명사 보존 (프랑스 스타트업 캠퍼스)"
+    },
+    {
+      "text": "Insight 도출",
+      "reason": "전문 용어 유지 (insight는 통용되는 영어)"
+    },
+    {
+      "text": "1,084 억 원",
+      "reason": "이미 올바른 띄어쓰기 (변경 불필요)"
+    },
+    {
+      "text": "Co-creation 워크숍",
+      "reason": "영어 용어 보존 (전문 용어)"
+    },
+    {
+      "text": "Keyword 분석",
+      "reason": "영어 용어 보존 (일반적 용어)"
+    },
+    {
+      "text": "AI shift 전략",
+      "reason": "영어 표현 보존 (shift는 한글로 변경 불필요)"
+    },
+    {
+      "text": "두 번째 단계",
+      "reason": "이미 올바른 띄어쓰기 (변경 불필요)"
+    },
+    {
+      "text": "첫 번째 미팅",
+      "reason": "이미 올바른 띄어쓰기 (변경 불필요)"
+    },
+    {
+      "text": "Summary 작성",
+      "reason": "영어 용어 보존 (일반적 용어, 임팩트로 변경 불가)"
+    },
+    {
+      "text": "올바른 스타트업 생태계",
+      "reason": "\"올바른\"은 정상 표현 (임팩트로 변경 불필요)"
+    }
+  ],
+  "metadata": {
+    "source": "Curated from learning_data/spelling_dataset.json (3,111 samples)",
+    "method": "Manual curation by Claude (not mechanical frequency counting)",
+    "total_positive": 31,
+    "total_negative": 12,
+    "categories": {
+      "용어통일": 13,
+      "띄어쓰기": 10,
+      "맞춤법": 3,
+      "인간피드백": 4
+    }
+  }
+}

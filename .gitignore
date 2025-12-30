@@ -1,0 +1,71 @@
+# 가상환경
+.venv/
+venv/
+env/
+
+# Python 캐시
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# PPTX 데이터 파일 (대용량)
+*.pptx
+!tem.pptx
+
+# PDF 파일
+*.pdf
+
+# 테스트 결과물
+*_report.json
+*_report.xlsx
+*_report.csv
+*_extracted_texts.json
+*_result.json
+*_check_report.json
+test_*.json
+ultra_result.json
+
+# 입력 데이터 폴더
+inputdata/
+
+# ML 모델 체크포인트
+qwen3-spelling-checker/
+
+# 학습 데이터 (선택적으로 포함하려면 주석 해제)
+# learning_data/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Claude 설정
+.claude/
+
+# 백업 파일
+*.bak
+*.bak2
+*.bak3
+*.bak4
+*.bak5
+
+# 임시 파일
+~$*.pptx
+*.tmp
+
+# 로그 파일
+*.log
+
+# CSV 데이터
+*.csv
+
+# 생성된 슬라이드 데이터
+slides_data_generated.json

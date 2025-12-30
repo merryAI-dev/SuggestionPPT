@@ -1,0 +1,87 @@
+{
+  "template": "tem.pptx",
+  "placeholders": {
+    "subtitle": {
+      "name": "TextBox 3",
+      "x": 286336,
+      "y": 929682,
+      "width": 7731668,
+      "height": 338554,
+      "x_pt": 22.5,
+      "y_pt": 73.2,
+      "width_pt": 608.8,
+      "height_pt": 26.7,
+      "original_text": "Subtitle",
+      "style": {
+        "font_name": "현대하모니 M",
+        "font_size": 16,
+        "bold": false,
+        "italic": false,
+        "color": "#000000",
+        "alignment": "left"
+      }
+    },
+    "title": {
+      "name": "TextBox 4",
+      "x": 2664714,
+      "y": 209553,
+      "width": 5353290,
+      "height": 338554,
+      "x_pt": 209.8,
+      "y_pt": 16.5,
+      "width_pt": 421.5,
+      "height_pt": 26.7,
+      "original_text": "Title",
+      "style": {
+        "font_name": "현대하모니 B",
+        "font_size": 16,
+        "bold": false,
+        "italic": false,
+        "color": "#000000",
+        "alignment": "left"
+      }
+    },
+    "chapter": {
+      "name": "Google Shape;176;p83",
+      "x": 255589,
+      "y": 255720,
+      "width": 2095500,
+      "height": 246221,
+      "x_pt": 20.1,
+      "y_pt": 20.1,
+      "width_pt": 165.0,
+      "height_pt": 19.4,
+      "original_text": "Chapter",
+      "style": {
+        "font_name": "현대하모니 B",
+        "font_size": 16,
+        "bold": false,
+        "italic": false,
+        "color": "#000000",
+        "alignment": "left"
+      }
+    },
+    "lead": {
+      "name": "Google Shape;185;p6",
+      "x": 533903,
+      "y": 1370832,
+      "width": 9241845,
+      "height": 239168,
+      "x_pt": 42.0,
+      "y_pt": 107.9,
+      "width_pt": 727.7,
+      "height_pt": 18.8,
+      "original_text": "Lead",
+      "style": {
+        "font_name": "현대하모니 L",
+        "font_size": 12,
+        "bold": false,
+        "italic": false,
+        "color": "#000000",
+        "alignment": "left"
+      }
+    }
+  },
+  "slide_width": 10079038,
+  "slide_height": 7559675
+}
