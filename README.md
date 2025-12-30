@@ -3,7 +3,7 @@
 자연어로 파워포인트를 생성하고, AI로 맞춤법과 용어 통일성을 검사하는 자동화 도구입니다.
 
 ```
-"H-온드림 2026년 제안서 만들어줘" → Claude API → slides_data.json → output.pptx
+"MYSC 2026년 제안서 만들어줘" → Claude API → slides_data.json → output.pptx
 ```
 
 ---
@@ -44,7 +44,7 @@
 
 - 수동으로 PPT 구조를 설계하고 텍스트를 입력하는 반복 작업
 - 수백 페이지 문서의 맞춤법과 용어 통일성을 육안으로 검토
-- "펠로우/펠로", "H온드림/H-온드림" 같은 표기 불일치 발생
+- "펠로우/펠로", "소셜벤처/소셜 벤처" 같은 표기 불일치 발생
 
 ### 해결 방안
 
@@ -179,7 +179,7 @@ pptMaker/
 **사용법**
 ```bash
 # 기본 실행
-python pipeline.py "H-온드림 2026년 제안서 만들어줘"
+python pipeline.py "MYSC 2026년 제안서 만들어줘"
 
 # 출력 파일 지정
 python pipeline.py "신한 스퀘어브릿지 결과보고서" result.pptx
@@ -205,7 +205,7 @@ from pipeline import run
 
 # 함수로 직접 호출
 output_path = run(
-    user_input="H-온드림 2026년 제안서 만들어줘",
+    user_input="MYSC 2026년 제안서 만들어줘",
     output_path="output.pptx",
     template_path="tem.pptx"
 )
@@ -217,7 +217,7 @@ output_path = run(
 PPT 자동 생성 파이프라인
 ============================================================
 
-입력: H-온드림 2026년 제안서 만들어줘
+입력: MYSC 2026년 제안서 만들어줘
 
 [1/3] 슬라이드 콘텐츠 생성 중...
 [2/3] JSON 저장 중... (slides_data_generated.json)
@@ -237,7 +237,7 @@ Claude API를 호출하여 자연어 입력을 구조화된 슬라이드 데이�
 
 **사용법**
 ```bash
-python generator.py "H-온드림 2026년 제안서 만들어줘"
+python generator.py "MYSC 2026년 제안서 만들어줘"
 ```
 
 **핵심 클래스: SlideGenerator**
@@ -252,7 +252,7 @@ generator = SlideGenerator()  # ANTHROPIC_API_KEY 환경변수 사용
 generator = SlideGenerator(api_key="sk-ant-...")
 
 # 슬라이드 데이터 생성
-slides_data = generator.generate("H-온드림 2026년 제안서")
+slides_data = generator.generate("MYSC 2026년 제안서")
 ```
 
 **생성 원리**
@@ -447,7 +447,7 @@ Stage 3: Claude API 최종 검토
    1. [슬라이드 3] 용어통일
       원문: "펠로우 프로그램"
       제안: "펠로 프로그램"
-      이유: H-온드림 공식 용어는 '펠로'입니다
+      이유: 공식 용어는 '펠로'입니다
       (출처: claude_context, 신뢰도: high)
 
    2. [슬라이드 7] 띄어쓰기
@@ -572,7 +572,7 @@ report = checker.run_all_checks()
 1. **용어 통일성 (TERM_VARIANTS 사전)**
    - 스타트업: "스타트 업", "Start-up", "startup" → "스타트업"
    - 펠로: "펠로우", "Fellow" → "펠로"
-   - H-온드림: "H온드림", "H 온드림" → "H-온드림"
+   - 용어 통일: 다양한 표기를 하나로 통일
    - 총 50+ 개 용어 그룹
 
 2. **맞춤법 오류 (COMMON_TYPOS 사전)**
@@ -743,7 +743,7 @@ python build_fewshot_examples.py
 ```json
 {
   "positive_examples": [
-    {"wrong": "펠로우", "correct": "펠로", "reason": "H-온드림 공식 용어"}
+    {"wrong": "펠로우", "correct": "펠로", "reason": "공식 용어 통일"}
   ],
   "negative_examples": [
     {"text": "Executive Summary", "reason": "영어 표현은 변경하지 않음"}
@@ -892,7 +892,7 @@ python test_spelling_model.py
 ```
 
 **기본 설정**
-- 입력: `온드림 1차 합본_1208.pptx` (코드에서 수정 필요)
+- 입력: 테스트할 PPTX 파일 (코드에서 수정 필요)
 - 모델: `./qwen3-spelling-checker/final`
 - 디바이스: MPS (자동 감지)
 
@@ -909,7 +909,7 @@ python test_spelling_model.py
 ======================================================================
 PPTX 맞춤법 검사 (파인튜닝 모델)
 ======================================================================
-파일: 온드림 1차 합본_1208.pptx
+파일: sample_presentation.pptx
 모델: ./qwen3-spelling-checker/final
 
 [1/3] PPTX 텍스트 추출 중...
@@ -1053,8 +1053,8 @@ python template_extractor.py tem.pptx
       "page": 1,
       "chapter": "01. 발견",
       "title": "임팩트 스타트업 발굴",
-      "subtitle": "사회문제 ���결 스타트업 선발",
-      "lead": "사회적 가치와 비즈니스 모델을 갖춘 스타트업을 발굴합니다"
+      "subtitle": "사회문제 �����결 스타트��� 선발",
+      "lead": "사회적 가치와 비즈��스 모델��� 갖춘 스타��업을 발��합니다"
     },
     {
       "page": 2,
@@ -1092,7 +1092,7 @@ python template_extractor.py tem.pptx
       "suggested": "펠로 프로그램",
       "type": "용어통일",
       "confidence": "high",
-      "reason": "H-온드림 공식 용어는 '펠로'입니다"
+      "reason": "공식 용어는 '펠로'입니다"
     }
   ]
 }
@@ -1110,7 +1110,7 @@ python template_extractor.py tem.pptx
 |-------------|-------------|------|
 | 펠로우 | 펠로 | 모든 경우 |
 | 기업가 정신, 기업가정신 | 임팩트 앙트프러너십 | 용어 통일 |
-| H온드림, H 온드림, H-OnDream | H-온드림 | 브랜드명 |
+| 미스크, MYSC, 엠와이소셜컴퍼니 | MYSC | 브랜드명 |
 | 엑셀러레이터 | 액셀러레이터 | 맞춤법 |
 | 소셜 벤처 | 소셜벤처 | 붙여쓰기 |
 | 펜테크 | 핀테크 | 맞춤법 |
