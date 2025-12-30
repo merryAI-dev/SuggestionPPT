@@ -35,6 +35,7 @@
 9. [데이터 포맷](#데이터-포맷)
 10. [용어 통일 규칙](#용어-통일-규칙)
 11. [문제 해결](#문제-해결)
+12. [코드 커스터마이징 가이드](#코드-커스터마이징-가이드)
 
 ---
 
@@ -978,7 +979,7 @@ print(response)
 | 설치 | 추가 의존성 필요 | 기본 의존성만 |
 | 속도 | 빠름 (로컬 추론) | Claude API 호출 필요 |
 | 정확도 | 학습 데이터에 의존 | Claude 수준 |
-| 유지보수 | 모델 업데이트 필요 | Few-shot 예제만 수정 |
+| ��지보수 | 모델 업데이트 필요 | Few-shot 예제만 수정 |
 | 권장 상황 | 대량 문서 처리 | 일반적인 사용 |
 
 **권장**: 대부분의 경우 Knowledge Distillation 모드(기본값)로 충분합니다.
@@ -1191,6 +1192,79 @@ JSON 파싱 오류
 해결:
 - Claude API 응답 형식 확인
 - 자동으로 폴백 결과 반환됨
+
+---
+
+## 코드 커스터마이징 가이드
+
+이 프로젝트를 다른 도메인에 적용할 때 수정이 필요한 파일들입니다.
+
+### 필수 수정 파일
+
+**1. test_spelling_model.py**
+```python
+# Line 140: 테스트할 PPTX 파일 경로 수정
+pptx_path = Path("./your_file.pptx")  # 상대 경로 권장
+```
+
+**2. integrated_pptx_checker.py**
+```python
+# Line 453: Claude 프롬프트의 도메인 설명 수정
+prompt = f"""다음은 [프로젝트명] PPT 문서입니다.
+...
+```
+
+**3. pptx_checker.py**
+```python
+# Line 55-58: 도메인별 용어 규칙 수정
+"프로젝트 용어": [
+    ("올바른용어", ["잘못된표기1", "잘못된표기2"]),
+]
+```
+
+**4. build_spelling_dataset.py**
+```python
+# Line 80: 용어 통일 사전 수정
+"올바른용어": ["잘못된표기1", "잘못된표기2"],
+```
+
+**5. build_fewshot_examples.py**
+```python
+# Line 23-44: Few-shot 예제 수정
+{
+    'wrong': '잘못된표현',
+    'correct': '올바른표현',
+    'reason': '수정 이유'
+}
+```
+
+### 학습 데이터 재생성
+
+도메인 변경 후 학습 데이터를 재생성하세요:
+
+```bash
+# 1. inputdata/ 폴더에 새 문서 배치
+cp *.pptx ./inputdata/
+cp *.pdf ./inputdata/
+
+# 2. 콘텐츠 추출
+python extractor.py
+
+# 3. 패턴 학습
+python build_learning_data.py
+
+# 4. 맞춤법 데이터셋 생성
+python build_spelling_dataset.py
+
+# 5. Few-shot 예제 생성
+python build_fewshot_examples.py
+```
+
+### 경로 규칙
+
+- 코드 내 경로는 **상대 경로** 사용 권장
+- 예: `./inputdata/`, `./learning_data/`, `./output.pptx`
+- 절대 경로가 필요한 경우 환경 변수 또는 설정 파일 사용
 
 ---
 
