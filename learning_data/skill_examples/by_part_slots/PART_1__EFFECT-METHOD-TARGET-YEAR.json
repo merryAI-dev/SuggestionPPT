@@ -1,0 +1,54 @@
+[
+  {
+    "output": "전략적으로, 이를 기반으로 {THEME}, 마일스톤, {EFFECT}관리방안을 마련합니다.",
+    "score": 1.2,
+    "keywords": [
+      "전략"
+    ]
+  },
+  {
+    "output": "{YEAR} 중소벤처{TARGET}부 액셀러레이터로 정식 등록하면서 본격적으로 {TARGET} 육{EFFECT} {METHOD}에 힘쓰고 있습니다.",
+    "score": 1.1,
+    "keywords": []
+  },
+  {
+    "output": "체계적으로, {YEAR} 중소벤처{TARGET}부 액셀러레이터로 정식 등록하면서 본격적으로 {TARGET} 육{EFFECT} {METHOD}에 힘쓰고 있습니다.",
+    "score": 0.5,
+    "keywords": []
+  },
+  {
+    "output": "지속적으로, {YEAR} 중소벤처{TARGET}부 액셀러레이터로 정식 등록하면서 본격적으로 {TARGET} 육{EFFECT} {METHOD}에 힘쓰고 있습니다.",
+    "score": 0.5,
+    "keywords": []
+  },
+  {
+    "output": "단계적으로, {YEAR} 중소벤처{TARGET}부 액셀러레이터로 정식 등록하면서 본격적으로 {TARGET} 육{EFFECT} {METHOD}에 힘쓰고 있습니다.",
+    "score": 0.5,
+    "keywords": []
+  },
+  {
+    "output": "종합적으로, {YEAR} 중소벤처{TARGET}부 액셀러레이터로 정식 등록하면서 본격적으로 {TARGET} 육{EFFECT} {METHOD}에 힘쓰고 있습니다.",
+    "score": 0.5,
+    "keywords": []
+  },
+  {
+    "output": "효율적으로, {YEAR} 중소벤처{TARGET}부 액셀러레이터로 정식 등록하면서 본격적으로 {TARGET} 육{EFFECT} {METHOD}에 힘쓰고 있습니다.",
+    "score": 0.5,
+    "keywords": []
+  },
+  {
+    "output": "실질적으로, {YEAR} 중소벤처{TARGET}부 액셀러레이터로 정식 등록하면서 본격적으로 {TARGET} 육{EFFECT} {METHOD}에 힘쓰고 있습니다.",
+    "score": 0.5,
+    "keywords": []
+  },
+  {
+    "output": "일관되게, {YEAR} 중소벤처{TARGET}부 액셀러레이터로 정식 등록하면서 본격적으로 {TARGET} 육{EFFECT} {METHOD}에 힘쓰고 있습니다.",
+    "score": 0.5,
+    "keywords": []
+  },
+  {
+    "output": "본 사업은 {YEAR} 중소벤처{TARGET}부 액셀러레이터로 정식 등록하면서 본격적으로 {TARGET} 육{EFFECT} {METHOD}에 힘쓰고 있습니다.",
+    "score": 0.5,
+    "keywords": []
+  }
+]

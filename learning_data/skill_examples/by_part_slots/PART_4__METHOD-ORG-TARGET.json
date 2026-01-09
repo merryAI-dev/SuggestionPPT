@@ -1,0 +1,384 @@
+[
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 통해 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 통해, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원합니다.",
+    "score": 1.4,
+    "keywords": [
+      "통해",
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 기반으로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 통해, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원합니다.",
+    "score": 1.4,
+    "keywords": [
+      "통해",
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 바탕으로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 통해, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원합니다.",
+    "score": 1.4,
+    "keywords": [
+      "통해",
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 토대로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 통해, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원합니다.",
+    "score": 1.4,
+    "keywords": [
+      "통해",
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 활용해 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 통해, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원합니다.",
+    "score": 1.4,
+    "keywords": [
+      "통해",
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 통해 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 통해, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원하고자 합니다.",
+    "score": 1.4,
+    "keywords": [
+      "통해",
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 통해 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 통해, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지속적으로 지원합니다.",
+    "score": 1.4,
+    "keywords": [
+      "통해",
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 통해 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 통해, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 체계적으로 지원합니다.",
+    "score": 1.4,
+    "keywords": [
+      "통해",
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 통해 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 통해, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원하고자 합니다.",
+    "score": 1.4,
+    "keywords": [
+      "통해",
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 기반으로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 통해, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원하고자 합니다.",
+    "score": 1.4,
+    "keywords": [
+      "통해",
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 바탕으로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 통해, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원하고자 합니다.",
+    "score": 1.4,
+    "keywords": [
+      "통해",
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 토대로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 통해, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원하고자 합니다.",
+    "score": 1.4,
+    "keywords": [
+      "통해",
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 활용해 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 통해, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원하고자 합니다.",
+    "score": 1.4,
+    "keywords": [
+      "통해",
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 근거로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 통해, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원하고자 합니다.",
+    "score": 1.4,
+    "keywords": [
+      "통해",
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 기반으로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 통해, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원합니다.",
+    "score": 1.4,
+    "keywords": [
+      "통해",
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 토대로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 통해, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원합니다.",
+    "score": 1.4,
+    "keywords": [
+      "통해",
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 근거로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 통해, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원합니다.",
+    "score": 1.4,
+    "keywords": [
+      "통해",
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 기반으로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 통해, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원하고자 합니다.",
+    "score": 1.4,
+    "keywords": [
+      "통해",
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 기반으로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 통해, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지속적으로 지원합니다.",
+    "score": 1.4,
+    "keywords": [
+      "통해",
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 기반으로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 통해, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 체계적으로 지원합니다.",
+    "score": 1.4,
+    "keywords": [
+      "통해",
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 바탕으로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 통해, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원합니다.",
+    "score": 1.4,
+    "keywords": [
+      "통해",
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 토대로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 통해, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원합니다.",
+    "score": 1.4,
+    "keywords": [
+      "통해",
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 근거로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 통해, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원합니다.",
+    "score": 1.4,
+    "keywords": [
+      "통해",
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 바탕으로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 통해, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원하고자 합니다.",
+    "score": 1.4,
+    "keywords": [
+      "통해",
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 바탕으로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 통해, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지속적으로 지원합니다.",
+    "score": 1.4,
+    "keywords": [
+      "통해",
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 바탕으로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 통해, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 체계적으로 지원합니다.",
+    "score": 1.4,
+    "keywords": [
+      "통해",
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 기반으로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 기반으로, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원합니다.",
+    "score": 1.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 기반으로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 바탕으로, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원합니다.",
+    "score": 1.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 기반으로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 기반으로, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원하고자 합니다.",
+    "score": 1.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 기반으로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 바탕으로, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원하고자 합니다.",
+    "score": 1.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 기반으로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 토대로, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원하고자 합니다.",
+    "score": 1.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 기반으로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 활용해, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원하고자 합니다.",
+    "score": 1.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 기반으로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 기반으로, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원합니다.",
+    "score": 1.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 기반으로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 바탕으로, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원합니다.",
+    "score": 1.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 기반으로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 토대로, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원합니다.",
+    "score": 1.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 기반으로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 활용해, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원합니다.",
+    "score": 1.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 바탕으로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 기반으로, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원합니다.",
+    "score": 1.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 바탕으로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 바탕으로, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원합니다.",
+    "score": 1.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 바탕으로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 토대로, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원합니다.",
+    "score": 1.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 바탕으로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 활용해, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원합니다.",
+    "score": 1.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 통해 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 통해, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원하겠습니다.",
+    "score": -0.09999999999999998,
+    "keywords": [
+      "통해",
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 기반으로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 통해, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원하겠습니다.",
+    "score": -0.09999999999999998,
+    "keywords": [
+      "통해",
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 바탕으로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 통해, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원하겠습니다.",
+    "score": -0.09999999999999998,
+    "keywords": [
+      "통해",
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 토대로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 통해, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원하겠습니다.",
+    "score": -0.09999999999999998,
+    "keywords": [
+      "통해",
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 활용해 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 통해, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원하겠습니다.",
+    "score": -0.09999999999999998,
+    "keywords": [
+      "통해",
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 근거로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 통해, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원하겠습니다.",
+    "score": -0.09999999999999998,
+    "keywords": [
+      "통해",
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 기반으로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 기반으로, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원하겠습니다.",
+    "score": -0.3,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 기반으로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 바탕으로, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원하겠습니다.",
+    "score": -0.3,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 기반으로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 토대로, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원하겠습니다.",
+    "score": -0.3,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 {TARGET}{THEME}창업 스프링{METHOD}를 기반으로 {TARGET}에 지원되는 ①사업화 지원금 이후 {TARGET}의 현황 진단을 활용해, ②{METHOD}/{METHOD} 지원 혹은 ③지분 {METHOD} 등의 다양한 혼합 {THEME} 방법 지원하겠습니다.",
+    "score": -0.3,
+    "keywords": [
+      "지원"
+    ]
+  }
+]

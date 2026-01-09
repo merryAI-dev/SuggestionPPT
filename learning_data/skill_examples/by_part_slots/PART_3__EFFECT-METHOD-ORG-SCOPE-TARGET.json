@@ -1,0 +1,72 @@
+[
+  {
+    "output": "전략적으로, {ORG}가 가진 자원을 활용하여 프로그램 {SCOPE} 내 {METHOD}유치 가능성이 높고 {EFFECT}성이 기대되는 우수 {THEME}산업 {TARGET}을 발굴하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "전략"
+    ]
+  },
+  {
+    "output": "{ORG}가 가진 자원을 활용하여 프로그램 {SCOPE} 내 {METHOD}유치 가능성이 높고 {EFFECT}성이 기대되는 우수 {THEME}산업 {TARGET}을 발굴하고자 합니다.",
+    "score": 2.5,
+    "keywords": [
+      "성장"
+    ]
+  },
+  {
+    "output": "체계적으로, {ORG}가 가진 자원을 활용하여 프로그램 {SCOPE} 내 {METHOD}유치 가능성이 높고 {EFFECT}성이 기대되는 우수 {THEME}산업 {TARGET}을 발굴하고자 합니다.",
+    "score": 2.5,
+    "keywords": [
+      "성장"
+    ]
+  },
+  {
+    "output": "지속적으로, {ORG}가 가진 자원을 활용하여 프로그램 {SCOPE} 내 {METHOD}유치 가능성이 높고 {EFFECT}성이 기대되는 우수 {THEME}산업 {TARGET}을 발굴하고자 합니다.",
+    "score": 2.5,
+    "keywords": [
+      "성장"
+    ]
+  },
+  {
+    "output": "단계적으로, {ORG}가 가진 자원을 활용하여 프로그램 {SCOPE} 내 {METHOD}유치 가능성이 높고 {EFFECT}성이 기대되는 우수 {THEME}산업 {TARGET}을 발굴하고자 합니다.",
+    "score": 2.5,
+    "keywords": [
+      "성장"
+    ]
+  },
+  {
+    "output": "종합적으로, {ORG}가 가진 자원을 활용하여 프로그램 {SCOPE} 내 {METHOD}유치 가능성이 높고 {EFFECT}성이 기대되는 우수 {THEME}산업 {TARGET}을 발굴하고자 합니다.",
+    "score": 2.5,
+    "keywords": [
+      "성장"
+    ]
+  },
+  {
+    "output": "효율적으로, {ORG}가 가진 자원을 활용하여 프로그램 {SCOPE} 내 {METHOD}유치 가능성이 높고 {EFFECT}성이 기대되는 우수 {THEME}산업 {TARGET}을 발굴하고자 합니다.",
+    "score": 2.5,
+    "keywords": [
+      "성장"
+    ]
+  },
+  {
+    "output": "실질적으로, {ORG}가 가진 자원을 활용하여 프로그램 {SCOPE} 내 {METHOD}유치 가능성이 높고 {EFFECT}성이 기대되는 우수 {THEME}산업 {TARGET}을 발굴하고자 합니다.",
+    "score": 2.5,
+    "keywords": [
+      "성장"
+    ]
+  },
+  {
+    "output": "일관되게, {ORG}가 가진 자원을 활용하여 프로그램 {SCOPE} 내 {METHOD}유치 가능성이 높고 {EFFECT}성이 기대되는 우수 {THEME}산업 {TARGET}을 발굴하고자 합니다.",
+    "score": 2.5,
+    "keywords": [
+      "성장"
+    ]
+  },
+  {
+    "output": "본 사업은 {ORG}가 가진 자원을 활용하여 프로그램 {SCOPE} 내 {METHOD}유치 가능성이 높고 {EFFECT}성이 기대되는 우수 {THEME}산업 {TARGET}을 발굴하고자 합니다.",
+    "score": 2.5,
+    "keywords": [
+      "성장"
+    ]
+  }
+]

@@ -47,8 +47,9 @@ qwen3-spelling-checker/
 *.swp
 *.swo
 
-# Claude 설정
-.claude/
+# Claude 설정 (스킬은 공유)
+.claude/*
+!.claude/skills/
 
 # 백업 파일
 *.bak
@@ -69,3 +70,6 @@ qwen3-spelling-checker/
 
 # 생성된 슬라이드 데이터
 slides_data_generated.json
+
+# RAG indexes
+rag_indexes/

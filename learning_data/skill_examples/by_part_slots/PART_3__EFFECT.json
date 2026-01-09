@@ -1,0 +1,54 @@
+[
+  {
+    "output": "전략적으로, 이를 기반으로 {THEME}, 마일스톤, {EFFECT}관리방안을 마련합니다.",
+    "score": 4.2,
+    "keywords": [
+      "전략"
+    ]
+  },
+  {
+    "output": "이를 기반으로 {THEME}, 마일스톤, {EFFECT}관리방안을 마련합니다.",
+    "score": 4.0,
+    "keywords": []
+  },
+  {
+    "output": "이를 토대로 {THEME}, 마일스톤, {EFFECT}관리방안을 마련합니다.",
+    "score": 4.0,
+    "keywords": []
+  },
+  {
+    "output": "이를 근거로 {THEME}, 마일스톤, {EFFECT}관리방안을 마련합니다.",
+    "score": 4.0,
+    "keywords": []
+  },
+  {
+    "output": "체계적으로, 이를 기반으로 {THEME}, 마일스톤, {EFFECT}관리방안을 마련합니다.",
+    "score": 4.0,
+    "keywords": []
+  },
+  {
+    "output": "지속적으로, 이를 기반으로 {THEME}, 마일스톤, {EFFECT}관리방안을 마련합니다.",
+    "score": 4.0,
+    "keywords": []
+  },
+  {
+    "output": "단계적으로, 이를 기반으로 {THEME}, 마일스톤, {EFFECT}관리방안을 마련합니다.",
+    "score": 4.0,
+    "keywords": []
+  },
+  {
+    "output": "종합적으로, 이를 기반으로 {THEME}, 마일스톤, {EFFECT}관리방안을 마련합니다.",
+    "score": 4.0,
+    "keywords": []
+  },
+  {
+    "output": "효율적으로, 이를 기반으로 {THEME}, 마일스톤, {EFFECT}관리방안을 마련합니다.",
+    "score": 4.0,
+    "keywords": []
+  },
+  {
+    "output": "실질적으로, 이를 기반으로 {THEME}, 마일스톤, {EFFECT}관리방안을 마련합니다.",
+    "score": 4.0,
+    "keywords": []
+  }
+]

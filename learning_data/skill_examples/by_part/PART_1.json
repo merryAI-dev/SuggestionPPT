@@ -1,0 +1,797 @@
+[
+  {
+    "output": "특화 {METHOD}을 통해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 토대로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 활용해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 근거로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 통해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "전략"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 토대로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "전략"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 활용해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "전략"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 근거로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "전략"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 통해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 체계적으로 지원합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 통해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 토대로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 활용해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 근거로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 통해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지속적으로 지원합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 통해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 토대로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 활용해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 근거로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 통해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 토대로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 활용해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 근거로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 통해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 토대로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 활용해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 근거로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 통해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 토대로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 활용해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 근거로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 통해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 토대로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 활용해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 근거로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 통해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 토대로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 활용해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 근거로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 통해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 토대로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 활용해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 근거로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "{ORG}는 대구·경북{SCOPE} 사업 수행 경험을 토대로 현지에서 통하는 프로모션 전략을 수행하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "전략"
+    ]
+  },
+  {
+    "output": "{ORG}는 대구·경북{SCOPE} 사업 수행 경험을 근거로 현지에서 통하는 프로모션 전략을 수행하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "전략"
+    ]
+  },
+  {
+    "output": "{ORG}는 대구·경북{SCOPE} 사업 수행 경험을 바탕으로 현지에서 통하는 프로모션 전략을 수행하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "전략"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 통해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지속적으로 지원합니다.",
+    "score": 3.2,
+    "keywords": [
+      "통해",
+      "나아가"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 통해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원합니다.",
+    "score": 3.2,
+    "keywords": [
+      "통해",
+      "나아가"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 통해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "통해",
+      "나아가"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 통해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지속적으로 지원합니다.",
+    "score": 3.2,
+    "keywords": [
+      "통해",
+      "나아가"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 통해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원합니다.",
+    "score": 3.2,
+    "keywords": [
+      "통해",
+      "나아가"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 통해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "통해",
+      "나아가"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 통해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지속적으로 지원합니다.",
+    "score": 3.2,
+    "keywords": [
+      "통해",
+      "나아가"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 통해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원합니다.",
+    "score": 3.2,
+    "keywords": [
+      "통해",
+      "나아가"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 통해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "통해",
+      "나아가"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 통해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어",
+      "목표"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 토대로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어",
+      "목표"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 활용해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어",
+      "목표"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 근거로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어",
+      "목표"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 통해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어",
+      "목표"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 토대로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어",
+      "목표"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 활용해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어",
+      "목표"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 근거로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어",
+      "목표"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 통해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어",
+      "목표"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 토대로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어",
+      "목표"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 활용해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어",
+      "목표"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 근거로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어",
+      "목표"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 통해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 토대로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 활용해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 근거로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 통해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 토대로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 활용해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 근거로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 통해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 토대로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 활용해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 근거로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 기반으로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어",
+      "목표",
+      "전략"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 바탕으로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어",
+      "목표",
+      "전략"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 통해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어",
+      "목표",
+      "전략"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 토대로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어",
+      "목표",
+      "전략"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 활용해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어",
+      "목표",
+      "전략"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 근거로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어",
+      "목표",
+      "전략"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 통해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 체계적으로 지원합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어",
+      "목표"
+    ]
+  },
+  {
+    "output": "이때 모니터링과 자원연계 제공하여 {EFFECT}관리를 체계적으로 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어",
+      "목표"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 기반으로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어",
+      "목표"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 바탕으로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어",
+      "목표"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 통해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지속적으로 지원합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어",
+      "목표"
+    ]
+  },
+  {
+    "output": "이때 모니터링과 자원연계 제공하여 {EFFECT}관리를 지속적으로 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어",
+      "목표"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 기반으로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어",
+      "목표"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 바탕으로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어",
+      "목표"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 기반으로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어",
+      "목표"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 바탕으로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어",
+      "목표"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 통해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어",
+      "목표"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 토대로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어",
+      "목표"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 활용해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어",
+      "목표"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 근거로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원",
+      "만들어",
+      "목표"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 통해 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "특화 {METHOD}을 토대로 {TARGET}이 방향{EFFECT} 모델을 검증하고 정교화 할 수 있도록 지원하고자 합니다.",
+    "score": 3.2,
+    "keywords": [
+      "지원"
+    ]
+  }
+]

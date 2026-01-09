@@ -1,0 +1,72 @@
+[
+  {
+    "output": "전략적으로, 이를 기반으로 {THEME}, 마일스톤, {EFFECT}관리방안을 마련합니다.",
+    "score": 2.2,
+    "keywords": [
+      "전략"
+    ]
+  },
+  {
+    "output": "{ORG}는 {THEME}을 주제로 주요한 {METHOD} 사례들을 발굴하며, 다양한 영역으로 {METHOD} 영역을 {EFFECT}해오고 있습니다.",
+    "score": -0.6000000000000001,
+    "keywords": [
+      "확대"
+    ]
+  },
+  {
+    "output": "체계적으로, {ORG}는 {THEME}을 주제로 주요한 {METHOD} 사례들을 발굴하며, 다양한 영역으로 {METHOD} 영역을 {EFFECT}해오고 있습니다.",
+    "score": -1.0,
+    "keywords": [
+      "확대"
+    ]
+  },
+  {
+    "output": "지속적으로, {ORG}는 {THEME}을 주제로 주요한 {METHOD} 사례들을 발굴하며, 다양한 영역으로 {METHOD} 영역을 {EFFECT}해오고 있습니다.",
+    "score": -1.0,
+    "keywords": [
+      "확대"
+    ]
+  },
+  {
+    "output": "단계적으로, {ORG}는 {THEME}을 주제로 주요한 {METHOD} 사례들을 발굴하며, 다양한 영역으로 {METHOD} 영역을 {EFFECT}해오고 있습니다.",
+    "score": -1.0,
+    "keywords": [
+      "확대"
+    ]
+  },
+  {
+    "output": "종합적으로, {ORG}는 {THEME}을 주제로 주요한 {METHOD} 사례들을 발굴하며, 다양한 영역으로 {METHOD} 영역을 {EFFECT}해오고 있습니다.",
+    "score": -1.0,
+    "keywords": [
+      "확대"
+    ]
+  },
+  {
+    "output": "효율적으로, {ORG}는 {THEME}을 주제로 주요한 {METHOD} 사례들을 발굴하며, 다양한 영역으로 {METHOD} 영역을 {EFFECT}해오고 있습니다.",
+    "score": -1.0,
+    "keywords": [
+      "확대"
+    ]
+  },
+  {
+    "output": "실질적으로, {ORG}는 {THEME}을 주제로 주요한 {METHOD} 사례들을 발굴하며, 다양한 영역으로 {METHOD} 영역을 {EFFECT}해오고 있습니다.",
+    "score": -1.0,
+    "keywords": [
+      "확대"
+    ]
+  },
+  {
+    "output": "일관되게, {ORG}는 {THEME}을 주제로 주요한 {METHOD} 사례들을 발굴하며, 다양한 영역으로 {METHOD} 영역을 {EFFECT}해오고 있습니다.",
+    "score": -1.0,
+    "keywords": [
+      "확대"
+    ]
+  },
+  {
+    "output": "본 사업은 {ORG}는 {THEME}을 주제로 주요한 {METHOD} 사례들을 발굴하며, 다양한 영역으로 {METHOD} 영역을 {EFFECT}해오고 있습니다.",
+    "score": -1.0,
+    "keywords": [
+      "확대"
+    ]
+  }
+]

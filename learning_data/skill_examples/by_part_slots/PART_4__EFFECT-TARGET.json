@@ -1,0 +1,297 @@
+[
+  {
+    "output": "본 사업을 통합적이고 유기적으로 운영하며 사업 목표 달{EFFECT} {THEME}분야 {TARGET}의 {EFFECT}을 지원하겠습니다.",
+    "score": 0.5000000000000001,
+    "keywords": [
+      "지원",
+      "목표"
+    ]
+  },
+  {
+    "output": "모집 과정에서부터 우수팀을 발굴하고 2월부터 11월까지 약 10개월간의 집중 육성으로 {TARGET}의 {EFFECT}을 촉진하며, 데모데이 및 {THEME} 통합 컨퍼런스를 통해 {EFFECT}를 {EFFECT}합니다.",
+    "score": 0.2,
+    "keywords": [
+      "통해"
+    ]
+  },
+  {
+    "output": "모집 과정에서부터 우수팀을 발굴하고 2월부터 11월까지 약 10개월간의 집중 육성으로 {TARGET}의 {EFFECT}을 촉진하며, 데모데이 과 {THEME} 통합 컨퍼런스를 통해 {EFFECT}를 {EFFECT}합니다.",
+    "score": 0.2,
+    "keywords": [
+      "통해"
+    ]
+  },
+  {
+    "output": "모집 과정에서부터 우수팀을 발굴하고 2월부터 11월까지 약 10개월간의 집중 육성으로 {TARGET}의 {EFFECT}을 촉진하며, 데모데이 그리고 {THEME} 통합 컨퍼런스를 통해 {EFFECT}를 {EFFECT}합니다.",
+    "score": 0.2,
+    "keywords": [
+      "통해"
+    ]
+  },
+  {
+    "output": "전략적으로, 모집 과정에서부터 우수팀을 발굴하고 2월부터 11월까지 약 10개월간의 집중 육성으로 {TARGET}의 {EFFECT}을 촉진하며, 데모데이 및 {THEME} 통합 컨퍼런스를 기반으로 {EFFECT}를 {EFFECT}합니다.",
+    "score": 0.2,
+    "keywords": [
+      "전략"
+    ]
+  },
+  {
+    "output": "전략적으로, 모집 과정에서부터 우수팀을 발굴하고 2월부터 11월까지 약 10개월간의 집중 육성으로 {TARGET}의 {EFFECT}을 촉진하며, 데모데이 및 {THEME} 통합 컨퍼런스를 바탕으로 {EFFECT}를 {EFFECT}합니다.",
+    "score": 0.2,
+    "keywords": [
+      "전략"
+    ]
+  },
+  {
+    "output": "본 프로그램을 통합적이고 유기적으로 운영하며 사업 목표 달{EFFECT} {THEME}분야 {TARGET}의 {EFFECT}을 지원하겠습니다.",
+    "score": 0.1000000000000002,
+    "keywords": [
+      "지원",
+      "목표"
+    ]
+  },
+  {
+    "output": "본 프로젝트를 통합적이고 유기적으로 운영하며 사업 목표 달{EFFECT} {THEME}분야 {TARGET}의 {EFFECT}을 지원하겠습니다.",
+    "score": 0.1000000000000002,
+    "keywords": [
+      "지원",
+      "목표"
+    ]
+  },
+  {
+    "output": "본 사업을 통합적이고 유기적으로 운영하며 사업 지향점 달{EFFECT} {THEME}분야 {TARGET}의 {EFFECT}을 지원하겠습니다.",
+    "score": 0.09999999999999992,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "본 프로그램을 통합적이고 유기적으로 운영하며 사업 지향점 달{EFFECT} {THEME}분야 {TARGET}의 {EFFECT}을 지원하겠습니다.",
+    "score": -0.3,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "본 프로젝트를 통합적이고 유기적으로 운영하며 사업 지향점 달{EFFECT} {THEME}분야 {TARGET}의 {EFFECT}을 지원하겠습니다.",
+    "score": -0.3,
+    "keywords": [
+      "지원"
+    ]
+  },
+  {
+    "output": "모집 과정에서부터 우수팀을 발굴하고 2월부터 11월까지 약 10개월간의 집중 육성으로 {TARGET}의 {EFFECT}을 촉진하며, 데모데이 및 {THEME} 통합 컨퍼런스를 기반으로 {EFFECT}를 {EFFECT}합니다.",
+    "score": -0.5,
+    "keywords": [
+      "통해",
+      "성장"
+    ]
+  },
+  {
+    "output": "모집 과정에서부터 우수팀을 발굴하고 2월부터 11월까지 약 10개월간의 집중 육성으로 {TARGET}의 {EFFECT}을 촉진하며, 데모데이 및 {THEME} 통합 컨퍼런스를 바탕으로 {EFFECT}를 {EFFECT}합니다.",
+    "score": -0.5,
+    "keywords": [
+      "통해",
+      "성장"
+    ]
+  },
+  {
+    "output": "모집 과정에서부터 우수팀을 발굴하고 2월부터 11월까지 약 10개월간의 집중 육성으로 {TARGET}의 {EFFECT}을 촉진하며, 데모데이 및 {THEME} 통합 컨퍼런스를 토대로 {EFFECT}를 {EFFECT}합니다.",
+    "score": -0.5,
+    "keywords": [
+      "통해",
+      "성장"
+    ]
+  },
+  {
+    "output": "모집 과정에서부터 우수팀을 발굴하고 2월부터 11월까지 약 10개월간의 집중 육성으로 {TARGET}의 {EFFECT}을 촉진하며, 데모데이 및 {THEME} 통합 컨퍼런스를 활용해 {EFFECT}를 {EFFECT}합니다.",
+    "score": -0.5,
+    "keywords": [
+      "통해",
+      "성장"
+    ]
+  },
+  {
+    "output": "모집 과정에서부터 우수팀을 발굴하고 2월부터 11월까지 약 10개월간의 집중 육성으로 {TARGET}의 {EFFECT}을 촉진하며, 데모데이 과 {THEME} 통합 컨퍼런스를 기반으로 {EFFECT}를 {EFFECT}합니다.",
+    "score": -0.5,
+    "keywords": [
+      "통해",
+      "성장"
+    ]
+  },
+  {
+    "output": "모집 과정에서부터 우수팀을 발굴하고 2월부터 11월까지 약 10개월간의 집중 육성으로 {TARGET}의 {EFFECT}을 촉진하며, 데모데이 그리고 {THEME} 통합 컨퍼런스를 기반으로 {EFFECT}를 {EFFECT}합니다.",
+    "score": -0.5,
+    "keywords": [
+      "통해",
+      "성장"
+    ]
+  },
+  {
+    "output": "모집 과정에서부터 우수팀을 발굴하고 2월부터 11월까지 약 10개월간의 집중 육성으로 {TARGET}의 {EFFECT}을 촉진하며, 데모데이 및 {THEME} 통합 컨퍼런스를 근거로 {EFFECT}를 {EFFECT}합니다.",
+    "score": -0.5,
+    "keywords": [
+      "통해",
+      "성장"
+    ]
+  },
+  {
+    "output": "모집 과정에서부터 우수팀을 발굴하고 2월부터 11월까지 약 10개월간의 집중 육성으로 {TARGET}의 {EFFECT}을 촉진하며, 데모데이 및 {THEME} 통합 컨퍼런스를 기반으로 {EFFECT}를 {EFFECT}합니다.",
+    "score": -0.5,
+    "keywords": [
+      "성장"
+    ]
+  },
+  {
+    "output": "모집 과정에서부터 우수팀을 발굴하고 2월부터 11월까지 약 10개월간의 집중 육성으로 {TARGET}의 {EFFECT}을 촉진하며, 데모데이 과 {THEME} 통합 컨퍼런스를 기반으로 {EFFECT}를 {EFFECT}합니다.",
+    "score": -0.5,
+    "keywords": [
+      "성장"
+    ]
+  },
+  {
+    "output": "모집 과정에서부터 우수팀을 발굴하고 2월부터 11월까지 약 10개월간의 집중 육성으로 {TARGET}의 {EFFECT}을 촉진하며, 데모데이 그리고 {THEME} 통합 컨퍼런스를 기반으로 {EFFECT}를 {EFFECT}합니다.",
+    "score": -0.5,
+    "keywords": [
+      "성장"
+    ]
+  },
+  {
+    "output": "모집 과정에서부터 우수팀을 발굴하고 2월부터 11월까지 약 10개월간의 집중 육성으로 {TARGET}의 {EFFECT}을 촉진하며, 데모데이 및 {THEME} 통합 컨퍼런스를 토대로 {EFFECT}를 {EFFECT}합니다.",
+    "score": -0.5,
+    "keywords": [
+      "성장"
+    ]
+  },
+  {
+    "output": "모집 과정에서부터 우수팀을 발굴하고 2월부터 11월까지 약 10개월간의 집중 육성으로 {TARGET}의 {EFFECT}을 촉진하며, 데모데이 및 {THEME} 통합 컨퍼런스를 근거로 {EFFECT}를 {EFFECT}합니다.",
+    "score": -0.5,
+    "keywords": [
+      "성장"
+    ]
+  },
+  {
+    "output": "모집 과정에서부터 우수팀을 발굴하고 2월부터 11월까지 약 10개월간의 집중 육성으로 {TARGET}의 {EFFECT}을 촉진하며, 데모데이 과 {THEME} 통합 컨퍼런스를 토대로 {EFFECT}를 {EFFECT}합니다.",
+    "score": -0.5,
+    "keywords": [
+      "성장"
+    ]
+  },
+  {
+    "output": "모집 과정에서부터 우수팀을 발굴하고 2월부터 11월까지 약 10개월간의 집중 육성으로 {TARGET}의 {EFFECT}을 촉진하며, 데모데이 과 {THEME} 통합 컨퍼런스를 근거로 {EFFECT}를 {EFFECT}합니다.",
+    "score": -0.5,
+    "keywords": [
+      "성장"
+    ]
+  },
+  {
+    "output": "모집 과정에서부터 우수팀을 발굴하고 2월부터 11월까지 약 10개월간의 집중 육성으로 {TARGET}의 {EFFECT}을 촉진하며, 데모데이 그리고 {THEME} 통합 컨퍼런스를 토대로 {EFFECT}를 {EFFECT}합니다.",
+    "score": -0.5,
+    "keywords": [
+      "성장"
+    ]
+  },
+  {
+    "output": "모집 과정에서부터 우수팀을 발굴하고 2월부터 11월까지 약 10개월간의 집중 육성으로 {TARGET}의 {EFFECT}을 촉진하며, 데모데이 그리고 {THEME} 통합 컨퍼런스를 근거로 {EFFECT}를 {EFFECT}합니다.",
+    "score": -0.5,
+    "keywords": [
+      "성장"
+    ]
+  },
+  {
+    "output": "모집 과정에서부터 우수팀을 발굴하고 2월부터 11월까지 약 10개월간의 집중 육성으로 {TARGET}의 {EFFECT}을 촉진하며, 데모데이 및 {THEME} 통합 컨퍼런스를 바탕으로 {EFFECT}를 {EFFECT}합니다.",
+    "score": -0.5,
+    "keywords": [
+      "성장"
+    ]
+  },
+  {
+    "output": "모집 과정에서부터 우수팀을 발굴하고 2월부터 11월까지 약 10개월간의 집중 육성으로 {TARGET}의 {EFFECT}을 촉진하며, 데모데이 과 {THEME} 통합 컨퍼런스를 바탕으로 {EFFECT}를 {EFFECT}합니다.",
+    "score": -0.5,
+    "keywords": [
+      "성장"
+    ]
+  },
+  {
+    "output": "모집 과정에서부터 우수팀을 발굴하고 2월부터 11월까지 약 10개월간의 집중 육성으로 {TARGET}의 {EFFECT}을 촉진하며, 데모데이 그리고 {THEME} 통합 컨퍼런스를 바탕으로 {EFFECT}를 {EFFECT}합니다.",
+    "score": -0.5,
+    "keywords": [
+      "성장"
+    ]
+  },
+  {
+    "output": "모집 과정에서부터 우수팀을 발굴하고 2월부터 11월까지 약 10개월간의 집중 육성으로 {TARGET}의 {EFFECT}을 촉진하며, 데모데이 및 {THEME} 통합 컨퍼런스를 토대로 {EFFECT}를 {EFFECT}합니다.",
+    "score": -0.5,
+    "keywords": [
+      "성장"
+    ]
+  },
+  {
+    "output": "모집 과정에서부터 우수팀을 발굴하고 2월부터 11월까지 약 10개월간의 집중 육성으로 {TARGET}의 {EFFECT}을 촉진하며, 데모데이 및 {THEME} 통합 컨퍼런스를 근거로 {EFFECT}를 {EFFECT}합니다.",
+    "score": -0.5,
+    "keywords": [
+      "성장"
+    ]
+  },
+  {
+    "output": "모집 과정에서부터 우수팀을 발굴하고 2월부터 11월까지 약 10개월간의 집중 육성으로 {TARGET}의 {EFFECT}을 촉진하며, 데모데이 과 {THEME} 통합 컨퍼런스를 토대로 {EFFECT}를 {EFFECT}합니다.",
+    "score": -0.5,
+    "keywords": [
+      "성장"
+    ]
+  },
+  {
+    "output": "모집 과정에서부터 우수팀을 발굴하고 2월부터 11월까지 약 10개월간의 집중 육성으로 {TARGET}의 {EFFECT}을 촉진하며, 데모데이 과 {THEME} 통합 컨퍼런스를 근거로 {EFFECT}를 {EFFECT}합니다.",
+    "score": -0.5,
+    "keywords": [
+      "성장"
+    ]
+  },
+  {
+    "output": "모집 과정에서부터 우수팀을 발굴하고 2월부터 11월까지 약 10개월간의 집중 육성으로 {TARGET}의 {EFFECT}을 촉진하며, 데모데이 그리고 {THEME} 통합 컨퍼런스를 토대로 {EFFECT}를 {EFFECT}합니다.",
+    "score": -0.5,
+    "keywords": [
+      "성장"
+    ]
+  },
+  {
+    "output": "모집 과정에서부터 우수팀을 발굴하고 2월부터 11월까지 약 10개월간의 집중 육성으로 {TARGET}의 {EFFECT}을 촉진하며, 데모데이 그리고 {THEME} 통합 컨퍼런스를 근거로 {EFFECT}를 {EFFECT}합니다.",
+    "score": -0.5,
+    "keywords": [
+      "성장"
+    ]
+  },
+  {
+    "output": "전략적으로, 본 사업을 통합적이고 유기적으로 운영하며 사업 목표 달{EFFECT} {THEME}분야 {TARGET}의 {EFFECT}을 지원하겠습니다.",
+    "score": -0.6999999999999997,
+    "keywords": [
+      "지원",
+      "목표",
+      "전략"
+    ]
+  },
+  {
+    "output": "체계적으로, 본 사업을 통합적이고 유기적으로 운영하며 사업 목표 달{EFFECT} {THEME}분야 {TARGET}의 {EFFECT}을 지원하겠습니다.",
+    "score": -0.8999999999999998,
+    "keywords": [
+      "지원",
+      "목표"
+    ]
+  },
+  {
+    "output": "지속적으로, 본 사업을 통합적이고 유기적으로 운영하며 사업 목표 달{EFFECT} {THEME}분야 {TARGET}의 {EFFECT}을 지원하겠습니다.",
+    "score": -0.8999999999999998,
+    "keywords": [
+      "지원",
+      "목표"
+    ]
+  },
+  {
+    "output": "단계적으로, 본 사업을 통합적이고 유기적으로 운영하며 사업 목표 달{EFFECT} {THEME}분야 {TARGET}의 {EFFECT}을 지원하겠습니다.",
+    "score": -0.8999999999999998,
+    "keywords": [
+      "지원",
+      "목표"
+    ]
+  }
+]

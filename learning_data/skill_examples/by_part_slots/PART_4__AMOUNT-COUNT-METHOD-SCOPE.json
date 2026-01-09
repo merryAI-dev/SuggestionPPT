@@ -1,0 +1,54 @@
+[
+  {
+    "output": "전략적으로, {METHOD}논의를 진행하여 프로그램 {SCOPE} 내 안정적으로 최소 {COUNT}, 총 {AMOUNT} 이상을 직접 {METHOD}를 진행할 계획입니다.",
+    "score": 0.7,
+    "keywords": [
+      "전략"
+    ]
+  },
+  {
+    "output": "{METHOD}논의를 진행하여 프로그램 {SCOPE} 내 안정적으로 최소 {COUNT}, 총 {AMOUNT} 이상을 직접 {METHOD}를 진행할 계획입니다.",
+    "score": 0.5,
+    "keywords": []
+  },
+  {
+    "output": "{METHOD}논의를 진행하여 프로그램 {SCOPE} 내 안정적으로 최소 {COUNT}, 총 {AMOUNT} 이상을 직접 {METHOD}를 진행할 방안입니다.",
+    "score": 0.5,
+    "keywords": []
+  },
+  {
+    "output": "체계적으로, {METHOD}논의를 진행하여 프로그램 {SCOPE} 내 안정적으로 최소 {COUNT}, 총 {AMOUNT} 이상을 직접 {METHOD}를 진행할 계획입니다.",
+    "score": 0.5,
+    "keywords": []
+  },
+  {
+    "output": "지속적으로, {METHOD}논의를 진행하여 프로그램 {SCOPE} 내 안정적으로 최소 {COUNT}, 총 {AMOUNT} 이상을 직접 {METHOD}를 진행할 계획입니다.",
+    "score": 0.5,
+    "keywords": []
+  },
+  {
+    "output": "단계적으로, {METHOD}논의를 진행하여 프로그램 {SCOPE} 내 안정적으로 최소 {COUNT}, 총 {AMOUNT} 이상을 직접 {METHOD}를 진행할 계획입니다.",
+    "score": 0.5,
+    "keywords": []
+  },
+  {
+    "output": "종합적으로, {METHOD}논의를 진행하여 프로그램 {SCOPE} 내 안정적으로 최소 {COUNT}, 총 {AMOUNT} 이상을 직접 {METHOD}를 진행할 계획입니다.",
+    "score": 0.5,
+    "keywords": []
+  },
+  {
+    "output": "효율적으로, {METHOD}논의를 진행하여 프로그램 {SCOPE} 내 안정적으로 최소 {COUNT}, 총 {AMOUNT} 이상을 직접 {METHOD}를 진행할 계획입니다.",
+    "score": 0.5,
+    "keywords": []
+  },
+  {
+    "output": "실질적으로, {METHOD}논의를 진행하여 프로그램 {SCOPE} 내 안정적으로 최소 {COUNT}, 총 {AMOUNT} 이상을 직접 {METHOD}를 진행할 계획입니다.",
+    "score": 0.5,
+    "keywords": []
+  },
+  {
+    "output": "일관되게, {METHOD}논의를 진행하여 프로그램 {SCOPE} 내 안정적으로 최소 {COUNT}, 총 {AMOUNT} 이상을 직접 {METHOD}를 진행할 계획입니다.",
+    "score": 0.5,
+    "keywords": []
+  }
+]

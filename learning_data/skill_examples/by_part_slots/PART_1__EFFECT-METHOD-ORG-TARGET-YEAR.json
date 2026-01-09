@@ -1,0 +1,73 @@
+[
+  {
+    "output": "전략적으로, {ORG}는 사회{EFFECT}을 지향하는 {METHOD}·액셀러레이팅·임팩트{METHOD} {TARGET}으로서, {YEAR} 설립 이후 {THEME} 년간 국내외 다양한 네트워크를 형성하며 공공{TARGET}과 대{TARGET}, {TARGET} 등을 대상으로 사업을 추진하였습니다.",
+    "score": 1.9,
+    "keywords": [
+      "추진",
+      "전략"
+    ]
+  },
+  {
+    "output": "{ORG}는 사회{EFFECT}을 지향하는 {METHOD}·액셀러레이팅·임팩트{METHOD} {TARGET}으로서, {YEAR} 설립 이후 {THEME} 년간 국내외 다양한 네트워크를 형성하며 공공{TARGET}과 대{TARGET}, {TARGET} 등을 대상으로 사업을 추진하였습니다.",
+    "score": 1.7,
+    "keywords": [
+      "추진"
+    ]
+  },
+  {
+    "output": "{ORG}는 사회{EFFECT}을 지향하는 {METHOD}·액셀러레이팅·임팩트{METHOD} {TARGET}으로서, {YEAR} 설립 이후 {THEME} 년간 국내외 다양한 네트워크를 형성하며 공공{TARGET}과 대{TARGET}, {TARGET} 등을 대상으로 프로그램을 추진하였습니다.",
+    "score": 1.7,
+    "keywords": [
+      "추진"
+    ]
+  },
+  {
+    "output": "{ORG}는 사회{EFFECT}을 지향하는 {METHOD}·액셀러레이팅·임팩트{METHOD} {TARGET}으로서, {YEAR} 설립 이후 {THEME} 년간 국내외 다양한 네트워크를 형성하며 공공{TARGET}과 대{TARGET}, {TARGET} 등을 대상으로 프로젝트를 추진하였습니다.",
+    "score": 1.7,
+    "keywords": [
+      "추진"
+    ]
+  },
+  {
+    "output": "체계적으로, {ORG}는 사회{EFFECT}을 지향하는 {METHOD}·액셀러레이팅·임팩트{METHOD} {TARGET}으로서, {YEAR} 설립 이후 {THEME} 년간 국내외 다양한 네트워크를 형성하며 공공{TARGET}과 대{TARGET}, {TARGET} 등을 대상으로 사업을 추진하였습니다.",
+    "score": 1.7,
+    "keywords": [
+      "추진"
+    ]
+  },
+  {
+    "output": "지속적으로, {ORG}는 사회{EFFECT}을 지향하는 {METHOD}·액셀러레이팅·임팩트{METHOD} {TARGET}으로서, {YEAR} 설립 이후 {THEME} 년간 국내외 다양한 네트워크를 형성하며 공공{TARGET}과 대{TARGET}, {TARGET} 등을 대상으로 사업을 추진하였습니다.",
+    "score": 1.7,
+    "keywords": [
+      "추진"
+    ]
+  },
+  {
+    "output": "단계적으로, {ORG}는 사회{EFFECT}을 지향하는 {METHOD}·액셀러레이팅·임팩트{METHOD} {TARGET}으로서, {YEAR} 설립 이후 {THEME} 년간 국내외 다양한 네트워크를 형성하며 공공{TARGET}과 대{TARGET}, {TARGET} 등을 대상으로 사업을 추진하였습니다.",
+    "score": 1.7,
+    "keywords": [
+      "추진"
+    ]
+  },
+  {
+    "output": "종합적으로, {ORG}는 사회{EFFECT}을 지향하는 {METHOD}·액셀러레이팅·임팩트{METHOD} {TARGET}으로서, {YEAR} 설립 이후 {THEME} 년간 국내외 다양한 네트워크를 형성하며 공공{TARGET}과 대{TARGET}, {TARGET} 등을 대상으로 사업을 추진하였습니다.",
+    "score": 1.7,
+    "keywords": [
+      "추진"
+    ]
+  },
+  {
+    "output": "효율적으로, {ORG}는 사회{EFFECT}을 지향하는 {METHOD}·액셀러레이팅·임팩트{METHOD} {TARGET}으로서, {YEAR} 설립 이후 {THEME} 년간 국내외 다양한 네트워크를 형성하며 공공{TARGET}과 대{TARGET}, {TARGET} 등을 대상으로 사업을 추진하였습니다.",
+    "score": 1.7,
+    "keywords": [
+      "추진"
+    ]
+  },
+  {
+    "output": "실질적으로, {ORG}는 사회{EFFECT}을 지향하는 {METHOD}·액셀러레이팅·임팩트{METHOD} {TARGET}으로서, {YEAR} 설립 이후 {THEME} 년간 국내외 다양한 네트워크를 형성하며 공공{TARGET}과 대{TARGET}, {TARGET} 등을 대상으로 사업을 추진하였습니다.",
+    "score": 1.7,
+    "keywords": [
+      "추진"
+    ]
+  }
+]
