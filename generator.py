@@ -154,6 +154,46 @@ JSON 형식으로 출력해주세요."""
         print(f"슬라이드 {len(result['slides'])}개 생성 완료")
         return result
 
+    def generate_lead_only(self, context: str, max_length: int = 35) -> str:
+        """
+        단일 슬라이드에 대한 리드문만 생성합니다.
+
+        Args:
+            context: 슬라이드 컨텍스트 (chapter + title + subtitle)
+            max_length: 최대 글자수
+
+        Returns:
+            생성된 리드문 (25-35자, 한 줄, "합니다" 어미)
+        """
+        prompt = f"""다음 슬라이드의 핵심 메시지를 리드문으로 작성해주세요.
+
+슬라이드 내용:
+{context}
+
+리드문 요구사항:
+- {max_length}글자 이내
+- 한 줄로 작성 (줄바꿈 금지)
+- "~합니다" 또는 "~입니다" 어미 사용
+- 슬라이드의 핵심 메시지를 담은 간결한 문장
+
+리드문만 작성해주세요 (다른 설명 불필요):"""
+
+        response = self.client.messages.create(
+            model="claude-sonnet-4-20250514",
+            max_tokens=256,
+            messages=[{"role": "user", "content": prompt}]
+        )
+
+        lead = response.content[0].text.strip()
+        lead = lead.strip('"\'')  # 따옴표 제거
+
+        # 길이 검증
+        if len(lead) > max_length:
+            print(f"⚠️ 생성된 리드가 너무 깁니다 ({len(lead)}자), 재시도 중...")
+            return self.generate_lead_only(context, max_length=max_length-5)
+
+        return lead
+
     def _parse_response(self, response_text: str) -> dict:
         """Claude 응답에서 JSON을 추출하고 검증합니다."""
         # JSON 블록 추출

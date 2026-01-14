@@ -17,7 +17,7 @@ import re
 from pathlib import Path
 from zipfile import ZipFile
 from xml.etree import ElementTree as ET
-from typing import List, Dict, Tuple
+from typing import List, Dict, Tuple, Optional
 from collections import defaultdict
 import difflib
 
@@ -30,6 +30,14 @@ from openpyxl.styles import Font, PatternFill, Alignment
 from openpyxl.utils import get_column_letter
 from openpyxl.cell.text import InlineFont
 from openpyxl.cell.rich_text import TextBlock, CellRichText
+
+# RAG modules (optional)
+try:
+    from rag.config import load_config as load_rag_config
+    from rag.retriever import load_retriever
+except ImportError:
+    load_rag_config = None
+    load_retriever = None
 
 # pptx_checker 모듈 임포트
 try:
@@ -354,7 +362,49 @@ def load_fewshot_examples():
         return {"positive_examples": [], "negative_examples": []}
 
 
-def review_with_claude(pptx_path: Path, texts: List[Dict], merged_issues: List[Dict]) -> Dict:
+def load_rag_retriever(config_path: Optional[Path] = None, rag_index_path: Optional[Path] = None):
+    """RAG 인덱스 로드 (없으면 None 반환)"""
+    if load_rag_config is None or load_retriever is None:
+        return None, {}
+    config = load_rag_config(config_path)
+    index_path = Path(rag_index_path) if rag_index_path else Path(config.get("qa_index", ""))
+    if not index_path.exists():
+        return None, config
+    try:
+        return load_retriever(index_path), config
+    except Exception as e:
+        print(f"   ⚠️  RAG 인덱스 로드 실패: {e}")
+        return None, config
+
+
+def format_rag_examples(docs: list[dict], label: str) -> str:
+    lines = []
+    for idx, doc in enumerate(docs, start=1):
+        meta = doc.get("meta", {})
+        if label == "positive":
+            wrong = meta.get("wrong") or meta.get("text") or doc.get("text", "")
+            correct = meta.get("correct") or ""
+            reason = meta.get("reason") or meta.get("error_type") or "rag"
+            if not wrong or not correct:
+                continue
+            lines.append(f"{idx}. \"{wrong}\" → \"{correct}\" ({reason})")
+        else:
+            text = meta.get("text") or meta.get("wrong") or doc.get("text", "")
+            reason = meta.get("reason") or "rag"
+            if not text:
+                continue
+            lines.append(f"{idx}. \"{text}\" → 변경 금지 ({reason})")
+    return "\n".join(lines)
+
+
+def review_with_claude(
+    pptx_path: Path,
+    texts: List[Dict],
+    merged_issues: List[Dict],
+    use_rag: bool = True,
+    rag_index_path: Optional[Path] = None,
+    rag_config_path: Optional[Path] = None,
+) -> Dict:
     """Claude API로 최종 검토 및 문맥 기반 검사"""
     print("\n🤖 Stage 3: Claude API 최종 검토")
     print("=" * 70)
@@ -409,19 +459,24 @@ def review_with_claude(pptx_path: Path, texts: List[Dict], merged_issues: List[D
     positive_examples = fewshot.get('positive_examples', [])
     negative_examples = fewshot.get('negative_examples', [])
 
-    # Positive 예시 포맷팅 (상위 25개)
-    positive_text = "\n".join([
+    # Few-shot 예시 포맷팅
+    default_positive_text = "\n".join([
         f"{i+1}. \"{ex['wrong']}\" → \"{ex['correct']}\" ({ex['reason']})"
         for i, ex in enumerate(positive_examples[:25])
     ])
-
-    # Negative 예시 포맷팅 (전체)
-    negative_text = "\n".join([
+    default_negative_text = "\n".join([
         f"{i+1}. \"{ex['text']}\" → 변경 금지 ({ex['reason']})"
         for i, ex in enumerate(negative_examples)
     ])
 
     print(f"   📚 Few-shot 예시 로드: {len(positive_examples)}개 positive, {len(negative_examples)}개 negative")
+
+    rag_retriever = None
+    rag_config = {}
+    if use_rag:
+        rag_retriever, rag_config = load_rag_retriever(rag_config_path, rag_index_path)
+        if rag_retriever:
+            print("   🔎 RAG 예시 사용: 동적 예시 검색 활성화")
 
     try:
         import anthropic
@@ -449,6 +504,29 @@ def review_with_claude(pptx_path: Path, texts: List[Dict], merged_issues: List[D
                 print(f"      배치 {batch_idx + 1}/{num_batches} 처리 중 ({len(batch_texts)}개 텍스트)...")
 
                 batch_text = "\n".join([f"[슬라이드 {t['slide']}] {t['text']}" for t in batch_texts])
+
+                positive_text = default_positive_text
+                negative_text = default_negative_text
+                if rag_retriever:
+                    rag_query = f"{type_name} {batch_text}"
+                    pos_docs = rag_retriever.retrieve(
+                        rag_query,
+                        top_k=int(rag_config.get("qa_top_k", 20)),
+                        min_score=float(rag_config.get("qa_min_score", 0.0)),
+                        filters={"label": "positive"},
+                    )
+                    neg_docs = rag_retriever.retrieve(
+                        rag_query,
+                        top_k=int(rag_config.get("qa_negative_k", 8)),
+                        min_score=float(rag_config.get("qa_min_score", 0.0)),
+                        filters={"label": "negative"},
+                    )
+                    rag_positive = format_rag_examples(pos_docs, "positive")
+                    rag_negative = format_rag_examples(neg_docs, "negative")
+                    if rag_positive:
+                        positive_text = rag_positive
+                    if rag_negative:
+                        negative_text = rag_negative
 
                 prompt = f"""다음은 H-온드림 임팩트 스타트업 지원 프로그램 PPT 문서입니다.
 
@@ -983,7 +1061,15 @@ def generate_final_report(
 # 메인 파이프라인
 # ============================================
 
-def run_integrated_check(pptx_path: str, output_path: str = None, model_path: str = None, skip_finetuned: bool = True):
+def run_integrated_check(
+    pptx_path: str,
+    output_path: str = None,
+    model_path: str = None,
+    skip_finetuned: bool = True,
+    use_rag: bool = True,
+    rag_index_path: Optional[str] = None,
+    rag_config_path: Optional[str] = None,
+):
     """통합 검사 파이프라인 실행
 
     Args:
@@ -1056,7 +1142,14 @@ def run_integrated_check(pptx_path: str, output_path: str = None, model_path: st
     merged_issues = merge_issues(model_issues, rule_issues)
 
     # Stage 3: Claude API 검토
-    claude_result = review_with_claude(pptx_path, texts, merged_issues)
+    claude_result = review_with_claude(
+        pptx_path,
+        texts,
+        merged_issues,
+        use_rag=use_rag,
+        rag_index_path=Path(rag_index_path) if rag_index_path else None,
+        rag_config_path=Path(rag_config_path) if rag_config_path else None,
+    )
 
     # 최종 리포트 (JSON)
     report = generate_final_report(pptx_path, texts, merged_issues, claude_result, Path(json_output_path))
@@ -1083,6 +1176,9 @@ if __name__ == "__main__":
         print("옵션:")
         print("  --output PATH    결과 파일 경로 (.json 또는 .xlsx)")
         print("  --model PATH     파인튜닝 모델 경로 (기본: ./qwen3-spelling-checker/final)")
+        print("  --rag-index PATH RAG QA 인덱스 경로 (선택)")
+        print("  --rag-config PATH RAG 설정 파일 경로 (선택)")
+        print("  --no-rag         RAG 예시 사용 비활성화")
         print()
         print("예시:")
         print("  python integrated_pptx_checker.py presentation.pptx")
@@ -1104,4 +1200,25 @@ if __name__ == "__main__":
         if idx + 1 < len(sys.argv):
             model_path = sys.argv[idx + 1]
 
-    run_integrated_check(pptx_path, output_path, model_path)
+    rag_index_path = None
+    if "--rag-index" in sys.argv:
+        idx = sys.argv.index("--rag-index")
+        if idx + 1 < len(sys.argv):
+            rag_index_path = sys.argv[idx + 1]
+
+    rag_config_path = None
+    if "--rag-config" in sys.argv:
+        idx = sys.argv.index("--rag-config")
+        if idx + 1 < len(sys.argv):
+            rag_config_path = sys.argv[idx + 1]
+
+    use_rag = "--no-rag" not in sys.argv
+
+    run_integrated_check(
+        pptx_path,
+        output_path,
+        model_path,
+        use_rag=use_rag,
+        rag_index_path=rag_index_path,
+        rag_config_path=rag_config_path,
+    )

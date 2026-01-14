@@ -118,6 +118,54 @@ scipy
 
 ---
 
+## 빠른 시작
+
+### 방법 1: Claude Code 스킬 (권장)
+
+자주 사용하는 워크플로우를 위한 사전 구성 스킬:
+
+```bash
+# 1. 자연어로 PPT 생성
+"PPT 만들어줘: H-온드림 2026년 제안서, 총 15페이지"
+
+# 2. PPT 품질 검사
+"PPT 검사해줘: output.pptx"
+
+# 3. 기존 PPT에 리드문 삽입
+"리드문 넣어줘: presentation.pptx"
+
+# 4. 템플릿 구조 분석
+"템플릿 분석: tem.pptx"
+
+# 5. 수동 리드문 작성 (인터랙티브)
+"리드문 써줘"
+```
+
+### 방법 2: 커맨드 라인
+
+수동 제어 또는 스크립팅:
+
+```bash
+# 전체 파이프라인 (자연어 → PPTX)
+python pipeline.py 'H-온드림 2026년 제안서 만들어줘' output.pptx
+
+# JSON에서 PPTX 생성
+python ppt_generator.py slides_data.json output.pptx tem.pptx
+
+# 품질 검사 (3단계 파이프라인)
+python integrated_pptx_checker.py input.pptx --output report.xlsx
+
+# 코퍼스에서 리드문 추출
+python extract_leads.py
+
+# 템플릿 구조 분석
+python template_extractor.py tem.pptx
+```
+
+전체 커맨드 레퍼런스는 [CLAUDE.md](CLAUDE.md) 참조.
+
+---
+
 ## 전체 파일 구조
 
 ```

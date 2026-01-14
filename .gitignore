@@ -73,3 +73,22 @@ slides_data_generated.json
 
 # RAG indexes
 rag_indexes/
+rag_indexes_filtered/
+
+# Generated learning data
+learning_data/rl_corpus_*/
+learning_data/oracle_docs/
+learning_data/similarity_*/
+learning_data/figures/
+learning_data/rl_runs/
+
+# Model checkpoints (keep final only)
+qwen3-*/checkpoint-*/
+qwen3-lead-sft-*/checkpoint-*/
+
+# Experiments files (keep directory structure)
+experiments/*/*.py
+experiments/*/*.sh
+experiments/*/*.json
+experiments/*/*.jsonl
+experiments/*/*.txt

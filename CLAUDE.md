@@ -70,7 +70,60 @@ python build_spelling_dataset.py
 # Extract lead text examples for training
 python extract_leads.py
 # Output: learning_data/extracted_leads.json
+
+# Build local RAG indexes (QA + lead)
+python build_rag_index.py --kind all
+# Output: rag_indexes/qa_index.json, rag_indexes/lead_index.json
+
+# Build unsupervised auto-mask vocab (industry-specific terms)
+python build_auto_mask_vocab.py --target-dir inputdata --target-pattern "H-온드림" \
+  --background-dir inputdata --output learning_data/auto_mask_vocab.environment.json
 ```
+
+### RAG-enabled flows
+```bash
+# Use RAG examples in Stage 3 (default if index exists)
+python integrated_pptx_checker.py input.pptx --rag-index rag_indexes/qa_index.json
+
+# Lead RL with RAG generator
+python lead_rl_supervisor.py --meta-dataset learning_data/mvp_meta_dataset.environment.jsonl \
+  --generator rag --rag-index rag_indexes/lead_index.json
+
+# Build masked MVP dataset using auto-mask vocab
+python build_mvp_lead_datasets.py --input-dir inputdata --industry environment \
+  --mask-industry --auto-mask-vocab learning_data/auto_mask_vocab.environment.json
+```
+
+## Claude Code Skills
+
+이 프로젝트는 5개의 자동화 워크플로우 스킬을 제공합니다:
+
+### 콘텐츠 생성
+- **lead-writer**: 수동 리드문 일괄 작성 (기존)
+  - 인터랙티브 워크플로우, 슬롯 기반 템플릿
+  - 샘플 생성 및 스타일 튜닝
+  - [.claude/skills/lead-writer/SKILL.md](.claude/skills/lead-writer/SKILL.md)
+
+- **ppt-generator**: 자연어로 PPT 자동 생성 (신규)
+  - 사용: "PPT 만들어줘: [설명]"
+  - 래퍼: [pipeline.py](pipeline.py)
+
+- **lead-inserter**: 기존 PPT에 리드문 생성 및 삽입 (신규)
+  - 사용: "리드문 넣어줘: input.pptx"
+  - 조합: [ultra_text_extractor.py](ultra_text_extractor.py) + [generator.py](generator.py) + [ppt_generator.py](ppt_generator.py)
+
+### 품질 관리
+- **ppt-checker**: 3단계 품질 검사 (신규)
+  - 사용: "PPT 검사해줘: input.pptx"
+  - 래퍼: [integrated_pptx_checker.py](integrated_pptx_checker.py)
+  - 검사 항목: 맞춤법, 띄어쓰기, 용어통일, 문맥 검토
+
+### 템플릿 관리
+- **template-analyzer**: 템플릿 구조 및 스타일 추출 (신규)
+  - 사용: "템플릿 분석: tem.pptx"
+  - 래퍼: [template_extractor.py](template_extractor.py)
+
+자세한 워크플로우는 각 스킬의 SKILL.md 파일 참조.
 
 ## Architecture
 
@@ -170,6 +223,68 @@ Templates define the visual structure while content is dynamically inserted.
 **Template analysis:** Use `python ppt_generator.py --analyze tem.pptx` to inspect template structure.
 
 **Template extraction:** Use [template_extractor.py](template_extractor.py) to extract font styles, positions, and colors to JSON.
+
+## 프로젝트 구조
+
+```
+pptMaker/
+├── pipeline.py                    # 메인 진입점
+├── generator.py                   # Claude API 콘텐츠 생성
+├── ppt_generator.py               # 템플릿 기반 PPTX 생성
+├── integrated_pptx_checker.py     # 3단계 품질 검사
+├── template_extractor.py          # 템플릿 구조 분석
+├── ultra_text_extractor.py        # 빠른 XML + Claude 추출
+│
+├── extractor.py                   # PPTX/PDF 텍스트 추출
+├── build_learning_data.py         # 코퍼스 패턴 추출
+├── extract_leads.py               # 리드문 추출
+├── lead_scorer.py                 # 리드 품질 평가
+├── lead_feedback_logger.py        # 사용자 피드백 로깅
+├── pptx_checker.py                # 규칙 기반 맞춤법 검사
+├── vision_text_extractor.py       # Vision API 대체 수단
+├── pptx_to_images.py              # PPTX → PNG 변환
+├── csv_to_json.py                 # 데이터 형식 변환
+│
+├── .claude/skills/                # Claude Code 스킬
+│   ├── lead-writer/               # 수동 리드 작성 (인터랙티브)
+│   ├── ppt-generator/             # 자동 PPT 생성
+│   ├── ppt-checker/               # 품질 검사
+│   ├── lead-inserter/             # 리드문 삽입
+│   └── template-analyzer/         # 템플릿 분석
+│
+├── experiments/                   # 연구 및 실험 코드
+│   ├── rl/                        # 강화학습 (GRPO)
+│   │   ├── lead_rl_loop.py
+│   │   ├── lead_rl_supervisor.py
+│   │   ├── auto_rerun_controller.py
+│   │   └── merge_run2_traces.py
+│   ├── rag/                       # RAG 파이프라인 실험
+│   │   ├── lead_rag_pipeline.py
+│   │   ├── build_rag_index.py
+│   │   └── analyze_similarity.py
+│   ├── dataset_builders/          # 데이터셋 구축
+│   │   ├── build_mvp_lead_datasets.py
+│   │   ├── build_auto_mask_vocab.py
+│   │   ├── build_lead_dataset.py
+│   │   └── ...
+│   ├── training/                  # 모델 파인튜닝
+│   │   ├── finetune_lead_sft.py
+│   │   ├── finetune_spelling_mps.py
+│   │   └── test_lead_model.py
+│   └── scripts/                   # 배치 처리
+│       ├── run_overnight_rl.sh
+│       └── monitor_overnight.sh
+│
+├── learning_data/                 # 학습 데이터 및 패턴
+│   ├── patterns.json              # 콘텐츠 생성 패턴
+│   ├── skill_examples/            # 스킬 학습 예시
+│   ├── extracted_leads.json       # 리드문 코퍼스
+│   └── fewshot_examples.json      # Knowledge Distillation 예시
+│
+├── rag/                           # RAG 모듈 (선택사항)
+├── inputdata/                     # 참조 PPTX/PDF (gitignore)
+└── tem.pptx                       # 기본 템플릿
+```
 
 ## Data Formats
 
