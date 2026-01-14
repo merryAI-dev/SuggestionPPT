@@ -167,7 +167,7 @@ Phase 1: 설정 → Phase 2: 호흡 맞추기 → Phase 3: 일괄 생성 → Pha
 3. **회사 소개**: 고유 표현 및 키워드 추출
 
 참고 데이터가 없는 경우, 내장된 예시 데이터를 사용합니다:
-- `/Users/boram/Desktop/11월/pptMaker/learning_data/skill_examples/`
+- `learning_data/skill_examples/`
 
 ## 피드백 로깅
 
